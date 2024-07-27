@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+    </header>
+    <main>
+        <section id="welcome" class="welcome">
+            <h2>Welcome to the Pokédex!</h2>
+            <p>Explore the world of Pokémon! Browse through the gallery, discover new Pokémon, and catch them to add to your collection. Click on any Pokémon to see its details and learn more about its abilities and types. Use the "Catch" button to mark Pokémon as caught and manage your collection.</p>
+        </section>
+        <section id="pokemon-gallery" class="pokemon-gallery"></section>
+        <button id="load-more" class="load-more">Load More</button>
+    </main>
+    <div id="pokemon-details" class="pokemon-details">
+        <div class="details-content">
+            <button id="close-details" class="close-details">&times;</button>
+            <h2 id="pokemon-name"></h2>
+            <img id="pokemon-image" src="" alt="">
+            <div id="pokemon-info">
+                <p id="pokemon-abilities"></p>
+                <p id="pokemon-types"></p>
+            </div>
+            <button id="catch-release" class="catch-release"></button>
+        </div>
+    </div>
+</body>
+</html>
